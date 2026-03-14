@@ -1,0 +1,30 @@
+node_modules/
+firstgen-guide/node_modules/
+firstgen-guide/dist/
+.env
+firstgen-guide/.env
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env.local
+.env.*.local
+
+# Build and cache
+dist/
+coverage/
+.vite/
+.cache/
+
+# Runtime data/uploads
+server/data/
+
+# Editor/OS
+.vscode/
+.idea/
+Thumbs.db

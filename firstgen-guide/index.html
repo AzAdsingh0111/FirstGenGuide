@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#060610" />
+    <meta name="description" content="FirstGen Guide — Your AI-powered college advisor for first-generation students." />
+    <title>FirstGen Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --gold: #f59e0b;
+        --gold-bright: #fbbf24;
+        --gold-dim: #d97706;
+        --indigo: #6366f1;
+        --emerald: #10b981;
+        --bg-deep: #060610;
+        --bg-mid: #0a0a18;
+        --surface: rgba(255,255,255,0.045);
+        --surface-hover: rgba(255,255,255,0.08);
+        --border: rgba(255,255,255,0.09);
+        --border-gold: rgba(245,158,11,0.35);
+        --text-primary: #f0f0f8;
+        --text-secondary: #7a7a8a;
+        --text-dim: #38384a;
+        --radius-lg: 16px;
+        --radius-md: 12px;
+        --radius-sm: 8px;
+        --shadow-gold: 0 8px 32px rgba(245,158,11,0.25);
+        --shadow-card: 0 4px 24px rgba(0,0,0,0.5);
+        --perspective: 1000px;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body {
+        margin: 0; padding: 0;
+        background: var(--bg-deep);
+        color-scheme: dark;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+      }
+      /* Smooth momentum scrolling */
+      * { scroll-behavior: smooth; }
+      /* 3D perspective layer */
+      .perspective-layer { perspective: var(--perspective); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
